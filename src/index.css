@@ -1,0 +1,52 @@
+body {
+  padding: 7rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+thead, tfoot {
+  background: #143459;
+  color: white;
+  cursor: pointer; 
+}
+
+thead th:hover {
+  background: #355172;
+}
+
+tfoot th:hover {
+  background: #355172;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #cceff7;
+  transform: scale(1.02);
+}
+
+button {
+  margin-left: 12px;
+  background-color: #cceff7;
+  border-radius: 5px;
+  height: 36px;
+  cursor: pointer;
+  border: none;
+}
+
+button:active {
+  background-color: #e7f5f8;
+}
